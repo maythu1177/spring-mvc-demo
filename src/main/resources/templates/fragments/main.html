@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+
+	<main role="main" th:fragment="main">
+		<div class="album py-3 bg-light">
+			<div class="container  bg-light">
+				<div th:insert="fragments/articles.html:: articles"></div>
+				<div th:insert="fragments/article-form.html:: article-form"></div>
+			</div>
+		</div>
+	</main>
+
+</body>
+</html>
+
+
+<body>
